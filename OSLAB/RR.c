@@ -46,4 +46,4 @@ printf("\nThe Average Waiting time is -- %f ",awt/n);
 printf("\n\tPROCESS\t BURST TIME \t WAITING TIME\tTURNAROUND TIME\n");
 for(i=0;i<n;i++)
 printf("\t%d \t %d \t\t %d \t\t %d \n",i+1,ct[i],wa[i],tat[i]);
-return 0,}
+return 0;}
