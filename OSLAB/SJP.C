@@ -42,5 +42,5 @@ for(i=0;i<n;i++)
 printf("\n\t P%d \t\t %d \t\t %d \t\t %d", p[i], bt[i], wt[i], tat[i]);
 printf("\nAverage Waiting Time -- %f", wtavg/n);
 printf("\nAverage Turnaround Time -- %f", tatavg/n);
-   return0;
+   return 0;
 }
