@@ -5,10 +5,10 @@
    Date of Execution: 1-11-2022
 */
 int tph, philname[20], status[20], howhung, hu[20], cho;
-main()
+int main()
 
 {
-int i; clrscr();
+int i; 
 printf("\n\nDINING PHILOSOPHER PROBLEM");
 printf("\nEnter the total no. of philosophers: ");
 scanf("%d",&tph);
@@ -30,8 +30,7 @@ status[hu[i]]=2;
 }
 do
 {
-printf("1.One can eat at a time\t2.Two can eat at a time
-\t3.Exit\nEnter your choice:");
+printf("1.One can eat at a time\t2.Two can eat at a time\t3.Exit\nEnter your choice:");
 scanf("%d", &cho);
 switch(cho)
 {
@@ -60,8 +59,7 @@ printf("\nP %d is waiting", philname[hu[x]]);
 two()
 {
 int i, j, s=0, t, r, x;
-printf("\n Allow two philosophers to eat at same
-time\n"); for(i=0;i<howhung;i++)
+printf("\n Allow two philosophers to eat at sametime\n"); for(i=0;i<howhung;i++)
 {
 for(j=i+1;j<howhung;j++)
 {
@@ -70,8 +68,7 @@ if(abs(hu[i]-hu[j])>=1&& abs(hu[i]-hu[j])!=4)
 printf("\n\ncombination %d \n", (s+1));
 t=hu[i];
 r=hu[j]; s++;
-printf("\nP %d and P %d are granted to eat", philname[hu[i]],
-philname[hu[j]]);
+printf("\nP %d and P %d are granted to eat", philname[hu[i]],philname[hu[j]]);
 Page 16
 for(x=0;x<howhung;x++)
 {
