@@ -1,0 +1,22 @@
+<pre>Memory Management Scheme - Worst Fit
+Enter the number of blocks:4
+Enter the number of files:5
+
+Enter the size of the blocks:-
+Block 1:2
+Block 2:8
+Block 3:0
+Block 4:3
+Enter the size of the files :-
+File 1:5
+File 2:8
+File 3:1
+File 4:9
+File 5:5
+
+File_no:	File_size:	Block_no:	Block_size:	Fragement
+1		5		5		0		0
+2		8		5		0		0
+3		1		5		0		0
+4		9		5		0		0
+5		5		5		0		0</pre>
