@@ -1,0 +1,10 @@
+<pre>Enter the number of blocks:4
+Enter the number of files:2
+
+Enter the size of the blocks:-
+Block 1:Block 2:Block 3:Block 4:files
+Enter the size of the files :-
+File 1:File 2:
+File No	File Size 	Block No	BlockSize	Fragment
+1		0		1		0		0
+2		0		2		0		0</pre>
