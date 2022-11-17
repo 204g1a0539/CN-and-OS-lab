@@ -1,0 +1,14 @@
+<pre>Enter no of jobs: 5
+Enter name and time: hema 1
+Enter name and time: mouni 2
+Enter name and time: sai 3
+Enter name and time: archana 4
+Enter name and time: raji 5
+Enter the available resources:45
+Safe sequence is:
+hema 1
+mouni 2
+sai 3
+archana 4
+raji 5
+</pre>
