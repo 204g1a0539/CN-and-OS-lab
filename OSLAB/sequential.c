@@ -5,10 +5,9 @@
    Date of Execution: 25-11-2022
 */
 #include<stdio.h>
-main()
+int main()
 {
 int f[50],i,st,j,len,c,k;
-clrscr();
 for(i=0;i<50;i++)
 f[i]=0;
 X:
@@ -34,6 +33,6 @@ scanf("%d",&c);
 if(c==1)
 goto X;
 else
-exit();
-getch();
+
+return 0;
 }

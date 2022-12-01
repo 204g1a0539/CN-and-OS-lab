@@ -1,0 +1,18 @@
+<pre> Enter the starting block &amp; length of file 3
+ 7
+
+3-&gt;1
+4-&gt;1
+5-&gt;1
+6-&gt;1
+7-&gt;1
+8-&gt;1
+9-&gt;1
+ the file is allocated to disk
+ if u want to enter more files?(y-1/n-0) 1
+
+ Enter the starting block &amp; length of file 3
+2
+Block already allocated
+ if u want to enter more files?(y-1/n-0)0
+</pre>
