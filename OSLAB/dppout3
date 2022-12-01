@@ -1,0 +1,10 @@
+<pre>DINING PHILOSOPHER PROBLEM
+Enter the total no. of philosophers: 9
+How many are hungry : 1
+Enterphilosopher1position:2
+1.One can eat at a time	2.Two can eat at a time	3.Exit
+Enter your choice:6
+
+Invalid option..1.One can eat at a time	2.Two can eat at a time	3.Exit
+Enter your choice:3
+</pre>
