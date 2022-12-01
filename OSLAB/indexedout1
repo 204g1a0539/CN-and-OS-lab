@@ -1,0 +1,11 @@
+<pre>enter index block	5
+enter no of files on index	3
+1
+2
+3
+ allocated file indexed
+ 5-&gt;1:1
+ 5-&gt;2:1
+ 5-&gt;3:1 
+ Enter 1 to enter more files and 0 to exit	2
+</pre>

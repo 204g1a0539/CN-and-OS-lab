@@ -6,12 +6,13 @@
 */
 #include<stdio.h>
 int f[50],i,k,j,inde[50],n,c,count=0,p;
-main()
+int main()
 {
-clrscr();
+
 for(i=0;i<50;i++)
 f[i]=0;
-x: printf("enter index block\t");
+x: 
+printf("enter index block\t");
 scanf("%d",&p);
 if(f[p]==0)
 {
@@ -44,6 +45,6 @@ scanf("%d",&c);
 if(c==1)
 goto x;
 else
-exit();
-getch();
+
+return 0;
 }
