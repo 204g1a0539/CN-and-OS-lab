@@ -5,10 +5,10 @@
    Date of Subbmission:25-11-2022
    */
 #include<stdio.h>
-main()
+int main()
 {
 int t[20], d[20], h, i, j, n, temp, k, atr[20], tot, p, sum=0;
-clrscr();
+
 printf("enter the no of tracks to be traveresed");
 scanf("%d'",&n);
 printf("enter the position of head");
@@ -27,11 +27,13 @@ if(t[j]>t[j+1])
 {
 temp=t[j];
 t[j]=t[j+1];
-t[j+1]=temp
+t[j+1]=temp;
 }
-for(i=0;i<=n+2;i++)
+for(i=0;i<=n+2;i++){
 if(t[i]==h);
-j=i;break;
+j=i;
+break;
+}
 p=0;
 while(t[j]!=tot-1)
 {
@@ -49,8 +51,7 @@ p++;
 }
 for(j=0;j<n+2;j++)
 {
-if(atr[j]>atr[j+1])
-d[j]=atr[j]-atr[j+1];
+if(atr[j]>atr[j+1])d[j]=atr[j]-atr[j+1];
 else
 d[j]=atr[j+1]-atr[j];
 sum+=d[j];
@@ -58,5 +59,5 @@ sum+=d[j];
 
 printf("total header movements%d",sum);
 printf("avg is %f",(float)sum/n);
-getch();
+return 0;
 }
